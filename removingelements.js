@@ -6,6 +6,5 @@
 // None of the arrays will be empty, so you don't have to worry about that!
 
 function removeEveryOther(arr) {
-  let remove = arr.length;
-  while (i--) (i + 1) % 2 === 0 && arr.splice(i, 1);
+return arr.filter((n,index) => index % 2 === 0)
 }
